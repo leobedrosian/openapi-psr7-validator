@@ -476,22 +476,14 @@ HTTP
                 '/multipart/files/collections',
                 [
                     'files' => [
-                        [
-                            'caption' => 'Some caption',
-                        ],
-                        [
-                            'caption' => 'Some caption',
-                        ],
+                        ['caption' => 'Some caption'],
+                        ['caption' => 'Some caption'],
                     ],
                 ],
                 [
                     'files' => [
-                        [
-                            'file' => new UploadedFile($imagePath, $imageSize, 0),
-                        ],
-                        [
-                            'file' => new UploadedFile($imagePath, $imageSize, 0),
-                        ],
+                        ['file' => new UploadedFile($imagePath, $imageSize, 0)],
+                        ['file' => new UploadedFile($imagePath, $imageSize, 0)],
                     ],
                 ],
             ],
