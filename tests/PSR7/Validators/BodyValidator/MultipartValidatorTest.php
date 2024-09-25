@@ -97,7 +97,7 @@ Content-Type: text/plain
 some-type
 ------WebKitFormBoundaryWRBHApnEKYVLfiJ1
 Content-Disposition: form-data; name="files[0][file]"; filename="image1.png"
-Content-Type: application/octet-steam
+Content-Type: application/octet-stream
 
 {...file content...}
 ------WebKitFormBoundaryWRBHApnEKYVLfiJ1--
