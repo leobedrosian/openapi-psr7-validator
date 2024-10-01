@@ -1,5 +1,5 @@
 {
-    "name": "league/openapi-psr7-validator",
+    "name": "madwire-media/openapi-psr7-validator",
     "description": "Validate PSR-7 messages against OpenAPI (3.0.2) specifications \nexpressed in YAML or JSON",
     "keywords": [
         "OpenAPI",
@@ -44,6 +44,12 @@
         "phpunit/phpunit": "^7 || ^8 || ^9",
         "symfony/cache": "^5.1"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://madwire.jfrog.io/artifactory/api/composer/composer-local"
+        }
+    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": true
